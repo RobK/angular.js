@@ -634,7 +634,7 @@ angular.mock.createMockWindow = function() {
         }
       };
     } else {
-      expect('SetTimoutQueue empty. Expecting delay of ').toEqual(delay);
+      expect('SetTimeoutQueue empty. Expecting delay of ').toEqual(delay);
     }
   };
 

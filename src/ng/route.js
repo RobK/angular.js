@@ -30,10 +30,10 @@ function $RouteProvider(){
    *        eagerly stored in `$routeParams` under the given `name` when the route matches.
    *
    *    For example, routes like `/color/:color/largecode/*largecode/edit` will match
-   *    `/color/brown/largecode/code/with/slashs/edit` and extract:
+   *    `/color/brown/largecode/code/with/slashes/edit` and extract:
    *
    *      * `color: brown`
-   *      * `largecode: code/with/slashs`.
+   *      * `largecode: code/with/slashes`.
    *
    *
    * @param {Object} route Mapping information to be assigned to `$route.current` on route

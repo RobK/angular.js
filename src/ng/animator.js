@@ -13,7 +13,7 @@
  * `ngRepeat`, `ngInclude`, `ngSwitch`, `ngShow`, `ngHide` and `ngView` already accept `ngAnimate` directive.
  * Custom directives can take advantage of animation through {@link ng.$animator $animator service}.
  *
- * Below is a more detailed breakdown of the supported callback events provided by pre-exisitng ng directives:
+ * Below is a more detailed breakdown of the supported callback events provided by pre-existing ng directives:
  *
  * * {@link ng.directive:ngRepeat#animations ngRepeat} — enter, leave and move
  * * {@link ng.directive:ngView#animations ngView} — enter and leave

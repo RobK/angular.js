@@ -19,7 +19,7 @@ var htmlAnchorDirective = valueFn({
 
     if (msie <= 8) {
 
-      // turn <a href ng-click="..">link</a> into a stylable link in IE
+      // turn <a href ng-click="..">link</a> into a styleable link in IE
       // but only if it doesn't have name attribute, in which case it's an anchor
       if (!attr.href && !attr.name) {
         attr.$set('href', '');
